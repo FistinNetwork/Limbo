@@ -16,10 +16,10 @@ public class SignTileEntity extends TileEntity
     SignTileEntity(CompoundTag data)
     {
         super(data);
-        this.text1 = data.get("Text1").toStringTag().getValue();
-        this.text2 = data.get("Text2").toStringTag().getValue();
-        this.text3 = data.get("Text3").toStringTag().getValue();
-        this.text4 = data.get("Text4").toStringTag().getValue();
+        this.text1 = "test"; //data.get("Text1").toStringTag().getValue();
+        this.text2 = "test"; //data.get("Text2").toStringTag().getValue();
+        this.text3 = "test"; //data.get("Text3").toStringTag().getValue();
+        this.text4 = "test"; //data.get("Text4").toStringTag().getValue();
     }
 
     public String getText1()
